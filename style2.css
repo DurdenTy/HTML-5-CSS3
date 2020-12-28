@@ -1,0 +1,170 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	font-family: sans-serif;
+	font-size: 14px;
+}
+
+
+body {
+	width: 100%;
+	min-height: 100px;
+	background-color:#FCF9F9;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.instagram_envelope {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 50%;
+	height: 100vh;
+}
+
+.instagram_phone {
+	display: flex;
+	align-items: start;
+	justify-content: center;
+	width: 50%;
+	margin-right: 50px;
+}
+
+.instagram_phone img{
+	width: 130%;
+}
+
+.instagram_login {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-direction: column;
+	width: 60%;
+	min-height: 34rem;
+
+}
+
+.grupo {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: column;
+	background-color: #ffffff;
+	width: 100%;
+	padding: 1.3rem 0;
+	border: 1px solid lightgray;
+}
+
+.grupo:nth-child(1) {
+	min-height: 19rem;
+	margin-bottom: 5px;
+}
+
+#perfil {
+	width: 80px;
+	height: 80px;
+	border-radius: 100px;
+	align-items: center;
+	justify-content: center;
+}
+
+#logo {
+	width: 50%;
+}
+
+
+.Log {
+	background-color: #3333ff;
+	height: 100%;
+	border-radius: 2px;
+	color: white;
+	padding: 6px;
+	margin: 10px;
+	font-size: 11px;
+	text-align: center;
+	text-shadow: 1px white;
+}
+
+.Logout {
+	color: #00aaff;
+	font-size: 11px;
+}
+
+.Notconta {
+	color: #a6a6a6;
+}
+
+
+.azul {
+	color: #00aaff;
+}
+
+.App {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	padding: 1.3rem 0;
+
+}
+
+.download {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	padding: 1rem;
+}
+
+.AppDownload {
+	height: 3rem;
+	width: 10rem;
+	align-items: center;
+	justify-content: center;
+	background-size: cover;
+	margin-left: 40px;
+}
+
+.AppDownload:nth-child(1) {
+	background-image: url("https://upload.wikimedia.org/wikipedia/commons/2/2c/Get-it-on-google-play-badge.png");
+
+}
+
+
+.AppDownload:nth-child(2) {
+
+	background-image: url("https://upload.wikimedia.org/wikipedia/commons/3/3c/Download_on_the_App_Store_Badge.svg");
+
+}
+
+@media (max-width: 1024px) {
+
+
+	.instagram-envelope {
+		width: 98%;
+	}
+}
+
+@media (max-width: 650px){
+
+	.body {
+		background-color: #ffffff;
+	}
+
+	.instagram_phone {
+		display: none;
+	}
+
+	.instagram_login {
+		width: 100%;
+	}
+
+	.group {
+		border: 1px solid transparent;
+	}
+}
