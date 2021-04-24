@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Ranchers&display=swap" rel="stylesheet">
+	<title>Monitoria</title>
+	<style type="text/css">
+
+		body{
+			background: #faf8e6;
+			font-size: 16px;
+			font-family: sans-serif;
+			display: block;
+			margin:0px;
+			width: auto;
+			height: auto;
+		} 
+
+		.Container{
+			width: 100%;
+			height: 100%;
+			color:#e81a57;
+			font-family: verdana;
+			text-shadow: 1px 1px 0px black;
+			
+			margin: 30px;
+		}
+
+
+		aside{
+			border: 2px solid #fc3b66;
+			height: 100%;
+			width: 24%;
+			border-radius: 5px;
+			margin: 15px;
+			margin-left: 30px;
+			display: inline-grid;
+			grid-template-columns: auto auto auto;
+		}
+
+		aside h3{
+			margin: 5px 7px 5px 5px;
+			padding: 3px;
+			background-color: white;
+			border-radius: 5px;
+		}
+
+		aside p{
+			margin: 5px 7px 5px 5px;
+			padding: 3px 3px 30px 3px;
+			background-color: white;
+			border-radius: 5px;
+		}
+
+		.caixa_de_perguntas{
+			border: 2px solid #fc3b66;
+			height: 100%;
+			width: 97%;
+			border-radius: 5px;
+			margin:2px;
+			display: block;
+
+
+		}
+
+		.bloco_descrição{
+			display: block;
+
+		}
+
+		.Ver_pergunta, .Responder{
+			width: auto;
+			height: 25px;
+			background-color: #fc3b66;
+			margin: 5px;
+			padding: 5px;
+			border: 0px solid white;
+
+		}
+
+		.Responder{
+			margin-right:15px;
+
+		}
+
+
+
+		.caixa_de_perguntas a{
+			color:white;
+			text-decoration: none;
+			padding: 15px;
+		}
+
+		.caixa_de_perguntas a:hover{
+			color:black;
+		}
+
+		.bloco_descrição img{
+			width:200px;
+			height: 200px;
+			margin: 15px;
+			border-radius: 5px;
+			border:2px solid black;
+
+		}
+
+
+
+		.Sair{
+			position: absolute;
+			left: 93%;
+			top: 2%;
+			padding: 15px;
+			background-color: #fc3b66;
+			border:1px solid #fc3b66;
+			color: black;
+			border-radius: 2px;
+			font-size: 19px;
+
+		}
+
+		.config_button{
+			position: absolute;
+			left: 89%;
+			top: 2%;
+			padding: 9px;
+			background-color: #fc3b66;
+			border:1px solid #fc3b66;
+			color: white;
+			border-radius: 2px;
+
+			
+
+		}
+
+		.menu{
+			width: 100%;
+			height: 30px;
+			padding: 10px 0%;
+			background-color: #fc3b66;
+			border:1px solid #fc3b66;
+			display: flex;
+			align-items: center;
+			text-shadow: 1px 0px white;
+			margin-bottom: 25px;
+
+
+		}
+
+		a{
+			font-family: verdana;
+			text-decoration-line: none;
+			color: #fc3b66;
+		}
+
+		.menu li{
+			display: inline-block;
+			list-style-type: none;
+		}
+
+		.menu li a:hover{
+			color: #000000;
+			text-shadow: 1px 0px black;
+		}
+
+		.menu li a{
+			margin-right: 30px;
+			text-decoration-line: none;
+			color: white;
+			font-size: 18px;
+			font-family: verdana;
+
+			
+		}
+
+
+
+		header{
+			background: #e81a57;
+			width: 100%;
+			height: auto;
+			margin-top: 0;
+			text-align: left;
+			font-size: 50px;
+			font-family: Ranchers;
+			display: flex;
+		}
+
+
+		h1{
+			color: white;
+			transform: rotate(-5deg);
+			font-size: 50px;
+			margin: 10px;
+			margin-left: 55px;
+			text-shadow: -7px 0px rgba(0, 0, 0, 1);
+		}
+
+		summary{
+			font-size: 18px;
+			font-family: verdana;
+			padding: 5px;
+		}
+		summary:hover{
+			color: #33DDDD;
+		}
+		a:hover{
+			color: #33DDDD;
+		}
+
+		details{
+			margin: 15px;
+			margin-left: 65px;
+		}
+
+	
+
+		h2{
+			color: #e81a57;
+			font-size: 30px;
+		}
+
+		footer{
+			background: #e81a57;
+			margin-top: 130px;
+			height: 100px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			color: white;
+
+		}
+
+	</style>
+</head>
+<body>
+	<header><h1>iSaveYou</h1><button class="config_button"><a href="#"><img src="https://www.flaticon.com/br/premium-icon/icons/svg/2137/2137744.svg" style="width: 30px; height: 31px; padding-top: 2px;"></a></button>
+		<button class="Sair"><a href="iSaveYou.html" style="color:black; text-decoration: none;">Sair</a></button></header>
+		<nav class="menu">
+			<ul>
+				<li><a style="padding-left: 30px; color:black; text-shadow: 1px 0px black;">Monitores</a></li>
+				<li><a href="iSaveYou_Tela_principal.html" style="padding-left: 25px;">Voltar a tela principal</a></li>
+			</ul>
+		</nav>
+	<main class="Container">
+		<aside>
+			<div class="caixa_de_perguntas">
+				<div class="bloco_descrição">
+					<img alt="Imagem do monitor" src="https://image.shutterstock.com/image-vector/default-avatar-profile-icon-social-600w-1677509740.jpg">
+					<h3>Prof. São francisco</h3>
+					<p>Formado em biologia em 2014. Mestrando Biologia. Disponível para aula particular</p>
+					<button class="Responder"><a href ="" >Iniciar aula?</a></button>
+					<button class="Responder"><a href ="" >Perguntar algo</a></button>
+				</div>
+			</div>
+			
+		</aside>
+		<aside>
+			<div class="caixa_de_perguntas">
+				<div class="bloco_descrição">
+					<img alt="Imagem do monitor" src="https://image.shutterstock.com/image-vector/default-avatar-profile-icon-social-600w-1677509740.jpg">
+					<h3>Prof. Joana Storm</h3>
+					<p>Formada em matemática em 2004. Doutorando. Disponível para aula particular</p>
+					<button class="Responder"><a href ="" >Iniciar aula?</a></button>
+					<button class="Responder"><a href ="" >Perguntar algo</a></button>
+				</div>
+			</div>
+			
+		</aside>
+		<aside>
+			<div class="caixa_de_perguntas">
+				<div class="bloco_descrição">
+					<img alt="Imagem do monitor" src="https://image.shutterstock.com/image-vector/default-avatar-profile-icon-social-600w-1677509740.jpg">
+					<h3>Prof. Bruce Banner</h3>
+					<p>Formado em Biotecnologia em 2009. Doutor em Bioquímica celular e microbiologia. Indisponível para aula no momento</p>
+					<button class="Responder"><a href ="" >Iniciar aula?</a></button>
+					<button class="Responder"><a href ="" >Perguntar algo</a></button>
+				</div>
+			</div>
+			
+		</aside>
+		<aside>
+			<div class="caixa_de_perguntas">
+				<div class="bloco_descrição">
+					<img alt="Imagem do monitor" src="https://image.shutterstock.com/image-vector/default-avatar-profile-icon-social-600w-1677509740.jpg">
+					<h3>Prof. Alberto Frankenstein</h3>
+					<p>Formado em física em 2012. Disponível para aula no momento</p>
+					<button class="Responder"><a href ="" >Iniciar aula?</a></button>
+					<button class="Responder"><a href ="" >Perguntar algo</a></button>
+				</div>
+			</div>
+			
+		</aside>
+		<aside>
+			<div class="caixa_de_perguntas">
+				<div class="bloco_descrição">
+					<img alt="Imagem do monitor" src="https://image.shutterstock.com/image-vector/default-avatar-profile-icon-social-600w-1677509740.jpg">
+					<h3>Prof. Woodpecker pelirrojo</h3>
+					<p>Formado em Português em 2007. Mestre desde 2014. Disponível para aula no momento</p>
+					<button class="Responder"><a href ="" >Iniciar aula?</a></button>
+					<button class="Responder"><a href ="" >Perguntar algo</a></button>
+				</div>
+			</div>
+			
+		</aside>
+		<aside>
+			<div class="caixa_de_perguntas">
+				<div class="bloco_descrição">
+					<img alt="Imagem do monitor" src="https://image.shutterstock.com/image-vector/default-avatar-profile-icon-social-600w-1677509740.jpg">
+					<h3>Prof. Blade Runner</h3>
+					<p>Formado em Filosofia em 2010. Mestre em filosofia moderna desde 2013. Disponível para aula no momento</p>
+					<button class="Responder"><a href ="" >Iniciar aula?</a></button>
+					<button class="Responder"><a href ="" >Perguntar algo</a></button>
+				</div>
+			</div>
+			
+		</aside>
+	</main>
+	
+	<footer>iSaveYou © 2021 versão 0.1</footer>
+	
+	
+	
+</body>
+</html>

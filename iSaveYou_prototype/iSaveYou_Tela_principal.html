@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Ranchers&display=swap" rel="stylesheet">
+	<title>iSaveYou</title>
+	<style type="text/css">
+
+		body{
+			background: #faf8e6;
+			font-size: 16px;
+			font-family: sans-serif;
+			display: block;
+			margin:0;
+			width: auto;
+			height: auto;
+		} 
+
+		.Container{
+			width: 100%;
+			height: 100%;
+			color:#e81a57;
+			font-family: verdana;
+			text-shadow: 1px 1px 0px black;
+			display: flex;
+			
+			justify-content: center;
+		}
+
+		section{
+			border: 2px solid #33DDDD;
+			height: 100%;
+			width: 78%;
+			margin: 15px;
+			border-radius: 5px;
+			display: block;
+
+		}
+
+		section p{
+			margin: 15px;
+			margin-left: 6px;
+		}
+
+		aside{
+			border: 2px solid #fc3b66;
+			height: 100%;
+			width: 22%;
+			border-radius: 5px;
+			margin:15px;
+			display: inline-block;
+
+		}
+
+		aside h3{
+			margin: 5px 7px 5px 5px;
+			padding: 3px;
+			background-color: white;
+			border-radius: 5px;
+		}
+
+		aside p{
+			margin: 5px 7px 5px 5px;
+			padding: 3px 3px 30px 3px;
+			background-color: white;
+			border-radius: 5px;
+		}
+
+		.caixa_de_perguntas{
+			border: 2px solid #fc3b66;
+			height: 100%;
+			width: 97%;
+			border-radius: 5px;
+			margin:2px;
+			display: block;
+
+		}
+
+		.Ver_pergunta, .Responder{
+			width: auto;
+			height: 25px;
+			background-color: #fc3b66;
+			margin: 5px;
+			padding: 5px;
+			border: 0px solid white;
+
+		}
+
+		.Responder{
+			margin-right:34px;
+		}
+
+		.caixa_de_perguntas a{
+			color:white;
+			text-decoration: none;
+			padding: 10px;
+		}
+
+		.caixa_de_perguntas a:hover{
+			color:black;
+		}
+
+
+		.Sair{
+			position: absolute;
+			left: 93%;
+			top: 2%;
+			padding: 15px;
+			background-color: #fc3b66;
+			border:1px solid #fc3b66;
+			color: black;
+			border-radius: 2px;
+			font-size: 19px;
+
+		}
+
+		.config_button{
+			position: absolute;
+			left: 89%;
+			top: 2%;
+			padding: 9px;
+			background-color: #fc3b66;
+			border:1px solid #fc3b66;
+			color: white;
+			border-radius: 2px;
+
+			
+
+		}
+
+		.menu{
+			width: 100%;
+			height: 30px;
+			padding: 10px 0%;
+			background-color: #fc3b66;
+			border:1px solid #fc3b66;
+			display: flex;
+			align-items: center;
+			text-shadow: 1px 0px white;
+		
+
+
+		}
+
+		section img{
+			width: 97%;
+			height: 500px;
+			margin: 5px;
+		}
+
+		.menu li{
+			display: inline-block;
+			list-style-type: none;
+			
+
+		}
+
+		.menu li a{
+			margin-right: 38px;
+			text-decoration-line: none;
+			color: white;
+			font-size: 18px;
+			font-family: verdana;
+
+			
+		}
+
+		.menu li a:hover{
+			color: #000000;
+			text-shadow: 1px 0px black;
+		}
+		
+
+		header{
+			background: #e81a57;
+			width: 100%;
+			height: auto;
+			margin-top: 0;
+			text-align: left;
+			font-size: 50px;
+			font-family: Ranchers;
+			display: flex;
+		}
+
+
+		h1{
+			color: white;
+			transform: rotate(-5deg);
+			font-size: 50px;
+			margin: 10px;
+			margin-left: 55px;
+			text-shadow: -7px 0px rgba(0, 0, 0, 1);
+		}
+
+	
+
+		h2{
+			color: white;
+			font-size: 30px;
+			background-color: #fc3b66;
+			padding: 10px;
+			width: 97%;
+			margin: 5px;
+			border-radius: 3px;
+
+		}
+
+		footer{
+			background: #e81a57;
+			margin-top: 130px;
+			height: 100px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			color: white;
+
+		}
+
+	</style>
+</head>
+<body>
+	<header><h1>iSaveYou</h1><button class="config_button"><a href="iSaveYou_Config.html"><img src="https://www.flaticon.com/br/premium-icon/icons/svg/2137/2137744.svg" style="width: 30px; height: 29px; padding-top: 2px;"></a></button>
+		<button class="Sair"><a href="iSaveYou.html" style="color:black; text-decoration: none;">Sair</a></button></header>
+		<nav class="menu">
+			<ul>
+				<li><a href="iSaveYou_Forum.html">Fórum de perguntas</a></li>
+				<li><a href="iSaveYou-Video-aulas.html">Vídeo aulas</a></li>
+				<li><a href="iSaveYou_Simulados.html">Simulados</a></li>
+				<li><a href="iSaveYou_Amigos.html">Amigos</a></li>
+				<li><a href="iSaveYou_Monitoria.html">Monitor(premium)</a></li>
+				<li><a href="iSaveYou_Loja.html">Loja</a></li>
+				<li><a href="iSaveYou_Suporte-e-Feedback.html">Suporte e Feedback</a></li>
+			</ul>
+		</nav>
+	<main class="Container">
+		<section>
+		<h2>O que sugerimos para você hoje?</h2>
+		 <p style="font-weight: 700">O que são buracos negros?</p>
+		 <img  alt="imagem de um buraco negro" src="https://images8.alphacoders.com/515/thumb-1920-515811.jpg">
+		 <p>Buraco negro é uma região do espaço-tempo em que o campo gravitacional é tão intenso que nada — nenhuma partícula ou radiação eletromagnética como a luz — pode escapar dela. A teoria da relatividade geral prevê que uma massa suficientemente compacta pode deformar o espaço-tempo para formar um buraco negro.</p>
+		 <p style="font-weight: 700">Singularidade<br><br>
+		 <p>Singularidades dentro de buracos negros.
+
+			Significa que tudo aquilo que cai dentro do horizonte de eventos é tragado, "devorado" por um ponto que poderíamos denominar "sem retorno", e isto é tão assim que nem a luz pode escapar deste fenômeno celeste.</p></p>
+			<p style="font-weight: 700">Estude nossas aulas de física mecânica, saiba mais sobre força gravitacional.</p>
+		</section>
+		<aside>
+			<div class="caixa_de_perguntas">
+				<h3>Luana093</h3>
+				<p>Qual diferença entre calor latente e calor sensível?</p>
+				<button class="Responder"><a href ="" >Responder</a></button>
+				<button class="Ver_pergunta"><a href ="" >Ver pergunta</a></button>
+			</div>
+			<div class="caixa_de_perguntas">
+				<h3>Joana Sales</h3>
+				<p>Por que os americanos não usam o sistema metrico decimal?</p>
+				<button class="Responder"><a href ="" >Responder</a></button>
+				<button class="Ver_pergunta"><a href ="">Ver pergunta</a></button>
+			</div>
+			<div class="caixa_de_perguntas">
+				<h3>Jake Dragão</h3>
+				<p>Uma solução de 3 mols diluidas em 4 L? Fiz o cálculo, mas ficou errado a massa total.</p>
+				<button class="Responder"><a href ="" >Responder</a></button>
+				<button class="Ver_pergunta"><a href ="">Ver pergunta</a></button>
+			</div>
+			<div class="caixa_de_perguntas">
+				<h3>Assemblinaldo Freire</h3>
+				<p>Quais as três leis de Newtom?</p>
+				<button class="Responder"><a href ="" >Responder</a></button>
+				<button class="Ver_pergunta"><a href ="">Ver pergunta</a></button>
+			</div>
+		</aside>
+
+	</main>
+	
+	<footer>iSaveYou © 2021 versão 0.1</footer>
+	
+	
+	
+</body>
+</html>

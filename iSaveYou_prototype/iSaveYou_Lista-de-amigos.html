@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Ranchers&display=swap" rel="stylesheet">
+	<title>Amizades</title>
+	<style type="text/css">
+
+		body{
+			background: #faf8e6;
+			font-size: 16px;
+			font-family: sans-serif;
+			display: block;
+			margin:0px;
+			width: auto;
+			height: auto;
+		} 
+
+		.Container{
+			width: 100%;
+			height: 100%;
+			color:#e81a57;
+			font-family: verdana;
+			text-shadow: 1px 1px 0px black;
+			display: flex;
+			
+			justify-content: center;
+		}
+
+		section{
+			
+			height: 100%;
+			width: 70%;
+		}
+
+		aside{
+			border: 2px solid red;
+			height: 100%;
+			width: 24%;
+			border-radius: 5px;
+			margin-left:35px;
+		}
+
+		aside h3{
+			margin: 5px 7px 5px 5px;
+			padding: 3px;
+			background-color: white;
+			border-radius: 5px;
+		}
+
+		aside p{
+			margin: 5px 7px 5px 5px;
+			padding: 3px 3px 30px 3px;
+			background-color: white;
+			border-radius: 5px;
+		}
+
+		.caixa_de_perguntas{
+			border: 2px solid #fc3b66;
+			height: 100%;
+			width: 97%;
+			border-radius: 5px;
+			margin:2px;
+			display: block;
+
+		}
+
+		.Ver_pergunta, .Responder{
+			width: auto;
+			height: 25px;
+			background-color: #fc3b66;
+			margin: 5px;
+			padding: 5px;
+			border: 0px solid white;
+
+		}
+
+		.Responder{
+			margin-right:32px;
+		}
+
+		.caixa_de_perguntas a{
+			color:white;
+			text-decoration: none;
+			padding: 5px;
+		}
+
+		.caixa_de_perguntas a:hover{
+			color:black;
+		}
+
+
+
+		.Sair{
+			position: absolute;
+			left: 93%;
+			top: 2%;
+			padding: 15px;
+			background-color: #fc3b66;
+			border:1px solid #fc3b66;
+			color: black;
+			border-radius: 2px;
+			font-size: 19px;
+
+		}
+
+		.config_button{
+			position: absolute;
+			left: 89%;
+			top: 2%;
+			padding: 9px;
+			background-color: #fc3b66;
+			border:1px solid #fc3b66;
+			color: white;
+			border-radius: 2px;
+
+			
+
+		}
+
+		.menu{
+			width: 100%;
+			height: 30px;
+			padding: 10px 0%;
+			background-color: #fc3b66;
+			border:1px solid #fc3b66;
+			display: flex;
+			align-items: center;
+			text-shadow: 1px 0px white;
+			margin-bottom: 25px;
+
+
+		}
+
+		a{
+			font-family: verdana;
+			text-decoration-line: none;
+			color: #fc3b66;
+		}
+
+		.menu li{
+			display: inline-block;
+			list-style-type: none;
+		}
+
+		.menu li a:hover{
+			color: #000000;
+			text-shadow: 1px 0px black;
+		}
+
+		.menu li a{
+			margin-right: 30px;
+			text-decoration-line: none;
+			color: white;
+			font-size: 18px;
+			font-family: verdana;
+
+			
+		}
+
+
+
+		header{
+			background: #e81a57;
+			width: 100%;
+			height: auto;
+			margin-top: 0;
+			text-align: left;
+			font-size: 50px;
+			font-family: Ranchers;
+			display: flex;
+		}
+
+
+		h1{
+			color: white;
+			transform: rotate(-5deg);
+			font-size: 50px;
+			margin: 10px;
+			margin-left: 55px;
+			text-shadow: -7px 0px rgba(0, 0, 0, 1);
+		}
+
+		summary{
+			font-size: 18px;
+			font-family: verdana;
+			padding: 5px;
+		}
+		summary:hover{
+			color: #33DDDD;
+		}
+		a:hover{
+			color: #33DDDD;
+		}
+
+		details{
+			margin-bottom: 5px;
+			margin-left: 17px;
+			padding: 5px;
+			border: 2px solid #e81a57;
+			border-radius: 5px;
+		}
+
+	
+
+		h2{
+			color: #e81a57;
+			font-size: 30px;
+		}
+
+		footer{
+			background: #e81a57;
+			margin-top: 130px;
+			height: 100px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			color: white;
+
+		}
+
+	</style>
+</head>
+<body>
+	<header><h1>iSaveYou</h1><button class="config_button"><a href="#"><img src="https://www.flaticon.com/br/premium-icon/icons/svg/2137/2137744.svg" style="width: 30px; height: 31px; padding-top: 2px;"></a></button>
+		<button class="Sair"><a href="iSaveYou.html" style="color:black; text-decoration: none;">Sair</a></button></header>
+		<nav class="menu">
+			<ul>
+				<li><a href="iSaveYou_Amigos.html">Amigos/Sugestão de amizades</a></li>
+				<li><a style="padding-left: 0px; color:black; text-shadow: 1px 0px black;">Lista de amigos</a></li>
+				<li><a href="iSaveYou_Tela_principal.html" style="padding-left: 5px;">Voltar a tela principal</a></li>
+			</ul>
+		</nav>
+	<main class="Container">
+		<section>
+		 <details>
+		 	<summary>Luara</summary>
+		 	<ul>
+		 		<a href="">Conversar</a><br><br>
+		 		<a href="">Convidar para grupo</a><br><br>
+		 		<a href="">Convidar para chamada</a><br><br>
+		 		<a href="">Remover amizade</a><br><br>
+		 		<a href="">Reportar/bloquear</a>
+
+		 	</ul>
+		 </details>
+		 <details>
+		 	<summary>Jailson mendes</summary>
+		 	<ul>
+		 		<a href="">Conversar</a><br><br>
+		 		<a href="">Convidar para grupo</a><br><br>
+		 		<a href="">Convidar para chamada</a><br><br>
+		 		<a href="">Remover amizade</a><br><br>
+		 		<a href="">Reportar/bloquear</a>
+
+		 	</ul>
+		 </details>
+		 <details>
+		 	<summary>Vegetal</summary>
+		 	<ul>
+		 		<a href="">Conversar</a><br><br>
+		 		<a href="">Convidar para grupo</a><br><br>
+		 		<a href="">Convidar para chamada</a><br><br>
+		 		<a href="">Remover amizade</a><br><br>
+		 		<a href="">Reportar/bloquear</a>
+
+		 	</ul>
+		 </details>
+		 <details>
+		 	<summary>Deepocean</summary>
+		 	<ul>
+		 		<a href="">Conversar</a><br><br>
+		 		<a href="">Convidar para grupo</a><br><br>
+		 		<a href="">Convidar para chamada</a><br><br>
+		 		<a href="">Remover amizade</a><br><br>
+		 		<a href="">Reportar/bloquear</a>
+
+		 	</ul>
+		 </details>
+		 <details>
+		 	<summary>Estrela de neutrons</summary>
+		 	<ul>
+		 		<a href="">Conversar</a><br><br>
+		 		<a href="">Convidar para grupo</a><br><br>
+		 		<a href="">Convidar para chamada</a><br><br>
+		 		<a href="">Remover amizade</a><br><br>
+		 		<a href="">Reportar/bloquear</a>
+
+		 	</ul>
+		 </details>
+		 <details>
+		 	<summary>Quasar</summary>
+		 	<ul>
+		 		<a href="">Conversar</a><br><br>
+		 		<a href="">Convidar para grupo</a><br><br>
+		 		<a href="">Convidar para chamada</a><br><br>
+		 		<a href="">Remover amizade</a><br><br>
+		 		<a href="">Reportar/bloquear</a>
+
+		 	</ul>
+		 </details>
+		 <details>
+		 	<summary>Mister milacre</summary>
+		 	<ul>
+		 		<a href="">Conversar</a><br><br>
+		 		<a href="">Convidar para grupo</a><br><br>
+		 		<a href="">Convidar para chamada</a><br><br>
+		 		<a href="">Remover amizade</a><br><br>
+		 		<a href="">Reportar/bloquear</a>
+
+		 	</ul>
+		 </details>
+		 <details>
+		 	<summary>Deadpool</summary>
+		 	<ul>
+		 		<a href="">Conversar</a><br><br>
+		 		<a href="">Convidar para grupo</a><br><br>
+		 		<a href="">Convidar para chamada</a><br><br>
+		 		<a href="">Remover amizade</a><br><br>
+		 		<a href="">Reportar/bloquear</a>
+
+		 	</ul>
+		 </details>
+		  <details>
+		 	<summary>Pursuit of happiness</summary>
+		 	<ul>
+		 		<a href="">Conversar</a><br><br>
+		 		<a href="">Convidar para grupo</a><br><br>
+		 		<a href="">Convidar para chamada</a><br><br>
+		 		<a href="">Remover amizade</a><br><br>
+		 		<a href="">Reportar/bloquear</a>
+
+		 	</ul>
+		 </details>
+
+
+		</section>
+		<aside>
+			<div class="caixa_de_perguntas">
+				<h3>Tenenbaum engravatado</h3>
+				<p>Gostaria de saber mais sobre a cultura japonesa, alguma sugestão onde posso encontrar algo detalhado? É para um amigo</p>
+				<button class="Responder"><a href ="" >Responder</a></button>
+				<button class="Ver_pergunta"><a href ="" >Ver pergunta</a></button>
+			</div>
+			<div class="caixa_de_perguntas">
+				<h3>Christopher Tenenbaum</h3>
+				<p>Sou professor, queria saber quando vocês(alunos) acham uma aula mais interessante de assistir? Sou péssimo em prender atenção deles.</p>
+				<button class="Responder"><a href ="" >Responder</a></button>
+				<button class="Ver_pergunta"><a href ="">Ver pergunta</a></button>
+			</div>
+			<div class="caixa_de_perguntas">
+				<h3>Opheu</h3>
+				<p>É possível extrarir energia de um buraco negro? É possível voltar no tempo?</p>
+				<button class="Responder"><a href ="" >Responder</a></button>
+				<button class="Ver_pergunta"><a href ="">Ver pergunta</a></button>
+			</div>
+		</aside>
+		
+	</main>
+	
+	<footer>iSaveYou © 2021 versão 0.1</footer>
+	
+	
+	
+</body>
+</html>
